@@ -1,0 +1,29 @@
+1、cmd.bat
+作用：
+	执行后进入当前文件夹下的控制台。
+
+      
+2、douban.py
+作用：
+	采集数据写入excel的程序
+3、getPicture.py
+作用：
+	在获取data后，生成data.xls文件后，再执行。
+生成需求图片
+
+注意：执行前系统得装python2.7
+
+执行步骤：
+	先执行douban.py获取数据
+	再执行getPicture.py获取图片
+执行方法：
+方法一：
+	1、点击cmd.bat
+	2、输入python douban.py
+	3、输入python getPicture.py
+方法二：
+	1、点击 douban.py
+	2、点击 getPicture.py
+	
+
+
